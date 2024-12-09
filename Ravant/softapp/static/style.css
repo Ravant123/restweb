@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    background: url('bg\ image.jpg') no-repeat center center/cover;
+    color: rgb(245, 12, 12);
+    padding: 50px 0;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+.navbar {
+    background-color: #f4a261;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(60, 25, 218);
+    font-size: 1.1em;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.about, .menu, .services, .footer {
+    padding: 50px 0;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #e70fbc;
+}
+
+.food-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.food-item {
+    text-align: center;
+    width: 150px;
+}
+
+.food-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.food-item h3 {
+    margin: 10px 0 5px;
+}
+
+.food-item p {
+    color: #04431f;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.services ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.services {
+    padding: 40px 0;
+    background-color: #0d1842b1;
+}
+
+.services-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.services-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.services-item h3 {
+    font-size: 1.5em;
+    color: #f4a261;
+}
+
+.services-item p {
+    text-align: center;
+    max-width: 600px;
+    font-size: 1em;
+    color: #333;
+}
+
+.contact-form, .about {
+    margin-top: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #e76f51;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #f4a261;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
